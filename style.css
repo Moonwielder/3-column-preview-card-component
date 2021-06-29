@@ -26,6 +26,7 @@
   background-color: hsl(0, 0%, 95%);
   width: 150px;
   transition: 0.3s ease-in-out;
+  font-weight: 600;
 }
 
 .cards .learnmore:hover {
@@ -39,7 +40,7 @@
 }
 
 .cards img {
-  width: 60px;
+  width: 70px;
 }
 
 .sedans {
@@ -49,7 +50,7 @@
   border-top-right-radius: 5px;
 }
 
-.sedans a {
+.sedans .learnmore {
   color: hsl(31, 77%, 52%);
 }
 
@@ -58,7 +59,7 @@
   padding: 50px 30px 50px 30px;
 }
 
-.suvs a {
+.suvs .learnmore {
   color: hsl(184, 100%, 22%);
 }
 
@@ -69,7 +70,7 @@
   border-bottom-right-radius: 5px;
 }
 
-.luxury a {
+.luxury .learnmore {
   color: hsl(179, 100%, 13%);
 }
 
@@ -83,7 +84,7 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   .cards {
     flex-direction: row;
     justify-content: center;
@@ -119,8 +120,6 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .cards {
-    width: 400px;
+
   }
 }
