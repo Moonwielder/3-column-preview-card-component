@@ -26,7 +26,7 @@
   background-color: hsl(0, 0%, 95%);
   width: 150px;
   transition: 0.3s ease-in-out;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .cards .learnmore:hover {
