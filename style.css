@@ -21,10 +21,10 @@
 
 .cards .learnmore {
   border: none;
-  padding: 17px;
+  padding: 12px 25px 12px 25px;
   border-radius: 50px;
   background-color: hsl(0, 0%, 95%);
-  width: 150px;
+  width: 10px;
   transition: 0.3s ease-in-out;
   font-weight: 500;
 }
