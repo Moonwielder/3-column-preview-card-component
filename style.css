@@ -1,0 +1,126 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.cards h1 {
+  font-family: Big Shoulders Display;
+  font-weight: 600;
+  font-size: 40px;
+  color: hsl(0, 0%, 95%);
+}
+
+.cards p {
+  font-family: Lexend Deca;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  width: 190px;
+  padding-bottom: 30px;
+}
+
+.cards .learnmore {
+  border: none;
+  padding: 17px;
+  border-radius: 50px;
+  background-color: hsl(0, 0%, 95%);
+  width: 150px;
+  transition: 0.3s ease-in-out;
+}
+
+.cards .learnmore:hover {
+  transform: scale(1.1);
+}
+
+.cards a {
+  text-decoration: none;
+  font-family: Lexend Deca;
+  font-weight: 600;
+}
+
+.cards img {
+  width: 50px;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  padding: 50px 30px 50px 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.sedans a {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  padding: 50px 30px 50px 30px;
+}
+
+.suvs a {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 50px 30px 50px 30px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.luxury a {
+  color: hsl(179, 100%, 13%);
+}
+
+body {
+  margin: 95px 25px 25px 25px;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.attribution {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1440px) {
+  .cards {
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 170px;
+  }
+
+  .sedans {
+    border-top-right-radius: 0px;
+    padding-right: 50px;
+    border-bottom-left-radius: 5px;
+    padding-left: 40px;
+  }
+
+  .suvs {
+    padding-right: 50px;
+    padding-left: 40px;
+  }
+
+  .suvs .learnmore {
+    margin-top: 20px;
+  }
+
+  .luxury {
+    padding-left: 40px;
+    padding-right: 50px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .cards {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cards {
+    width: 400px;
+  }
+}
